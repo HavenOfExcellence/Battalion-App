@@ -14,9 +14,13 @@ const props = defineProps({
     type: String,
     default: "text",
   },
+  rules: {
+    type: Function,
+    default: null,
+  },
 });
 
-const { label, name, type } = props;
+const { rules, label, name, type } = props;
 
 console.log(label, name, type);
 console.log("asd");
@@ -27,6 +31,6 @@ function returnfalse() {
 </script>
 
 <template>
-  <Field :name="name" :label="label" :type="type" :rules="returnfalse" />
+  <Field :name="name" :label="label" :type="type" :rules="rules" />
   <ErrorMessage :name="name" />
 </template>
