@@ -18,11 +18,15 @@ const props = defineProps({
     type: Function,
     default: null,
   },
+  placeholder: {
+    type: String,
+    default: "",
+  },
 });
 
-const { rules, label, name, type } = props;
+const { placeholder, rules, label, name, type } = props;
 
-console.log(label, name, type);
+console.log({ placeholder, rules, label, name, type });
 console.log("asd");
 
 function returnfalse() {
@@ -31,6 +35,12 @@ function returnfalse() {
 </script>
 
 <template>
-  <Field :name="name" :label="label" :type="type" :rules="rules" />
+  <Field
+    :name="name"
+    :label="label"
+    :type="type"
+    :placeholder="placeholder"
+    :rules="rules"
+  />
   <ErrorMessage :name="name" />
 </template>

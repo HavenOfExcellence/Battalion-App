@@ -19,6 +19,7 @@
     "nuxt": "3.0.0-rc.3"
   },
   "dependencies": {
+    "flowbite": "^1.4.7",
     "vee-validate": "^4.5.11"
   }
 }
