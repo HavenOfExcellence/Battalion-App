@@ -55,7 +55,6 @@
         {{ ispassword }}
       </Form>
     </div>
-    <ModalComponent />
   </div>
 </template>
 <script setup>
