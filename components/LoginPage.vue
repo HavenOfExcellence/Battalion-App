@@ -5,7 +5,7 @@
     >
       <Form class="bg-white" @submit="onSubmit">
         <h1 class="text-gray-800 font-bold text-2xl mb-8">
-          Welcome to 41st Battalion Anniversary!!
+          Battalion Digital Defense Exerise
         </h1>
         <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
           <div v-on:click="onname()">
