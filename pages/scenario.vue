@@ -1,5 +1,5 @@
 <template>
   <div>
-    <ModalComponent />
+    <ModalComponent title="asd" body="asdad" />
   </div>
 </template>

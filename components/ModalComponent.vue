@@ -1,5 +1,31 @@
+<script setup>
+import { ref } from "vue";
+import {
+  Dialog,
+  DialogPanel,
+  DialogTitle,
+  TransitionChild,
+  TransitionRoot,
+} from "@headlessui/vue";
+
+const open = ref(true);
+
+const props = defineProps({
+  title: {
+    default: "Test Title",
+    required: false,
+  },
+  body: {
+    default:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    required: false,
+  },
+});
+
+const { title, body } = props;
+</script>
+
 <template>
-  {{ open }}
   <div>
     <TransitionRoot :show="open">
       <Dialog v-if="open" class="relative z-10" @close="open = false">
@@ -42,13 +68,11 @@
                         as="h3"
                         class="text-lg leading-6 font-medium text-gray-900"
                       >
-                        Deactivate account
+                        {{ title }}
                       </DialogTitle>
                       <div class="mt-2">
                         <p class="text-sm text-gray-500">
-                          Are you sure you want to deactivate your account? All
-                          of your data will be permanently removed. This action
-                          cannot be undone.
+                          {{ body }}
                         </p>
                       </div>
                     </div>
@@ -62,15 +86,7 @@
                     class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"
                     @click="open = false"
                   >
-                    Deactivate
-                  </button>
-                  <button
-                    type="button"
-                    class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
-                    @click="open = false"
-                    ref="cancelButtonRef"
-                  >
-                    Cancel
+                    I understand
                   </button>
                 </div>
               </DialogPanel>
@@ -81,16 +97,3 @@
     </TransitionRoot>
   </div>
 </template>
-
-<script setup>
-import { ref } from "vue";
-import {
-  Dialog,
-  DialogPanel,
-  DialogTitle,
-  TransitionChild,
-  TransitionRoot,
-} from "@headlessui/vue";
-
-const open = ref(true);
-</script>

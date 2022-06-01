@@ -8,46 +8,66 @@
           Welcome to 41st Battalion Anniversary!!
         </h1>
         <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
-          <FormField
-            class="pl-2 outline-none border-none"
-            type="text"
-            name="name"
-            placeholder="Full name"
-          />
-          <button v-on:click="onname">asd</button>
+          <div v-on:click="onname()">
+            <FormField
+              class="pl-2 outline-none border-none"
+              type="text"
+              name="name"
+              placeholder="Full name"
+            />
+            <ModalComponent
+              v-if="isname"
+              title="Tips for Selecting a Full Name"
+            />
+          </div>
         </div>
         <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
-          <FormField
-            class="pl-2 outline-none border-none"
-            type=""
-            name="username"
-            placeholder="Username"
-          />
-          <button v-on:click="onusername">asd</button>
+          <div v-on:click="onusername()">
+            <FormField
+              class="pl-2 outline-none border-none"
+              type=""
+              name="username"
+              placeholder="Username"
+            />
+            <ModalComponent
+              v-if="isusername"
+              title="Tips for Selecting a Username"
+            />
+          </div>
         </div>
         <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
-          <FormField
-            class="pl-2 outline-none border-none"
-            type=""
-            name="email"
-            placeholder="Email Address"
-          />
-          <button v-on:click="onemail">asd</button>
+          <div v-on:click="onemail()">
+            <FormField
+              class="pl-2 outline-none border-none"
+              type=""
+              name="email"
+              placeholder="Email Address"
+            />
+            <ModalComponent
+              v-if="isemail"
+              title="Tips for Selecting a Email Address"
+            />
+          </div>
         </div>
         <div class="flex items-center border-2 py-2 px-3 rounded-2xl">
-          <FormField
-            class="pl-2 outline-none border-none"
-            type="text"
-            name="password"
-            placeholder="Password"
-          />
-          <button v-on:click="onpassword">asd</button>
+          <div v-on:click="onpassword()">
+            <FormField
+              class="pl-2 outline-none border-none"
+              type="text"
+              name="password"
+              placeholder="Password"
+            />
+            <ModalComponent
+              v-if="ispassword"
+              title="Tips for Selecting a Password"
+            />
+          </div>
         </div>
         <button
           type="submit"
           class="block w-full bg-indigo-600 mt-4 py-2 rounded-2xl text-white font-semibold mb-2"
         >
-          Begin
+          Enter Activity
         </button>
         {{ isname }}
         {{ isusername }}
@@ -69,6 +89,10 @@ const isname = ref(false);
 const isusername = ref(false);
 const isemail = ref(false);
 const ispassword = ref(false);
+
+function alert() {
+  console.log("asdasdasd");
+}
 
 function onname() {
   isname.value = true;
