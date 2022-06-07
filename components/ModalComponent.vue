@@ -71,9 +71,9 @@ const { title, body } = props;
                         {{ title }}
                       </DialogTitle>
                       <div class="mt-2">
-                        <p class="text-sm text-gray-500">
+                        <h2 class="text-sm text-gray-500">
                           {{ body }}
-                        </p>
+                        </h2>
                       </div>
                     </div>
                   </div>

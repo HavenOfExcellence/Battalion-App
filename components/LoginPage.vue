@@ -105,6 +105,12 @@ function onpassword() {
             <ModalComponent
               v-if="ispassword"
               title="Tips for Selecting a Password"
+              body="Password Recommendations:
+              1. Use longer passwords
+              2. Do not reuse passwords
+              3. Do not use personal information
+              4. Implement MFA
+              5. Change passwords in the event of a compromise"
             />
           </div>
         </div>
