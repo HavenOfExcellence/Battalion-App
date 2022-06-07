@@ -41,6 +41,7 @@ function returnfalse() {
     :type="type"
     :placeholder="placeholder"
     :rules="rules"
+    :change="change"
   />
   <ErrorMessage :name="name" />
 </template>
