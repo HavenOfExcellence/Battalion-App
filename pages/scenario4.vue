@@ -1,6 +1,10 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <ScenarioPage :scenario="4" title="Beware of Phishing Scams">
+  <ScenarioPage
+    :scenario="4"
+    title="Beware of Phishing Scams"
+    nextlink="/scenario5"
+  >
     <img src="assets/Scam4.png" />
     <h2>
       After befriending an attractive person (who is usually foreign) online, he

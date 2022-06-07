@@ -3,6 +3,7 @@
   <ScenarioPage
     :scenario="2"
     title="Friend Messages you with a suspicious link:"
+    nextlink="/scenario3"
   >
     <img src="assets/Scam2.png" />
     <h2>Beware of Friends sending</h2>
