@@ -4,7 +4,7 @@
     :scenario="6"
     title="Securing your Zoom calls to avoid leaking of sensitive information"
   >
-    <img src="assets/Scam5.jpg" />
+    <img src="~/assets/Scam5.jpg" />
     <h2>
       To maintain the security of your next meeting, our recommendations are
       below:

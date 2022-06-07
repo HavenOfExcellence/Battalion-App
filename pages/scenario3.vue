@@ -1,7 +1,7 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
   <ScenarioPage :scenario="3" title="Tech Support Scams" nextlink="/scenario4">
-    <img src="assets/Scam3.png" />
+    <img src="~/assets/Scam3.png" />
     <h2>
       Anyone who believes they have fallen prey to such scams should take these
       immediate steps: Uninstall any software that you have installed at the

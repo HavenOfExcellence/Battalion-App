@@ -5,7 +5,7 @@
     title="Friend Messages you with a suspicious link:"
     nextlink="/scenario3"
   >
-    <img src="assets/Scam2.png" />
+    <img src="~/assets/Scam2.png" />
     <h2>
       Don’t drop your “phishing antenna” just because you see a familiar persoon
       as the sender of an email. Keep looking for anything else suspicious that

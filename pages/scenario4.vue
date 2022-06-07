@@ -5,7 +5,7 @@
     title="Beware of Phishing Scams"
     nextlink="/scenario5"
   >
-    <img src="assets/Scam4.png" />
+    <img src="~/assets/Scam4.png" />
     <h2>
       The police advised members of the public to observe these crime prevention
       measures: Do not click on dubious URL links provided in unsolicited text

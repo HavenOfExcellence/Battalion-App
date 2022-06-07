@@ -5,7 +5,7 @@
     title="Stranger Messages you with a suspicious link:"
     nextlink="/scenario2"
   >
-    <img src="assets/Scam1.jpg" />
+    <img src="~/assets/Scam1.jpg" />
     <h2>
       Social Media Impersonation Scams Scammers would usually ask the victims
       for their personal details such as their mobile number, Internet banking

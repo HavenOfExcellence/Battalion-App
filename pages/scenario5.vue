@@ -5,7 +5,7 @@
     title="Beware of Love Scams"
     nextlink="/scenario6"
   >
-    <img src="assets/Scam6.png" />
+    <img src="~/assets/Scam6.png" />
     <h2>
       After befriending an attractive person (who is usually foreign) online, he
       or she tells a tale about falling into trouble or hard times. The scammer
