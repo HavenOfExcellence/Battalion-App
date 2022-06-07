@@ -6,7 +6,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "start": "nuxt start",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.0.4",
@@ -17,10 +17,10 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^3.2.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^8.7.1",
-    "nuxt": "3.0.0-rc.3"
+    "eslint-plugin-vue": "^8.7.1"
   },
   "dependencies": {
+    "nuxt": "3.0.0-rc.3",
     "@headlessui/vue": "^1.6.2",
     "flowbite": "^1.4.7",
     "vee-validate": "^4.5.11",
