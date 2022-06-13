@@ -22,12 +22,13 @@ const props = defineProps({
     type: String,
     default: "",
   },
+  value: {
+    type: String,
+    default: "",
+  },
 });
 
-const { placeholder, rules, label, name, type } = props;
-
-console.log({ placeholder, rules, label, name, type });
-console.log("asd");
+const { placeholder, rules, label, name, type, value } = props;
 
 function returnfalse() {
   return false;
@@ -42,6 +43,7 @@ function returnfalse() {
     :placeholder="placeholder"
     :rules="rules"
     :change="change"
+    :value="value"
   />
   <ErrorMessage :name="name" />
 </template>

@@ -19,6 +19,7 @@
       anyone.
     </h2>
   </ScenarioPage>
+  <QuizTemplate />
 </template>
 
 <script setup></script>
