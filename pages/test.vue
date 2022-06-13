@@ -1,3 +1,5 @@
 <template>
-  <QuizTemplate />
+  <div>
+    <QuizTemplate />
+  </div>
 </template>
