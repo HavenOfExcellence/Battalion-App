@@ -33,7 +33,7 @@ const props = defineProps({
   },
 });
 
-const { placeholder, disabled, rules, label, name, type, value } = props;
+const { placeholder, disable, rules, label, name, type, value } = props;
 
 function returnfalse() {
   return false;
@@ -43,6 +43,7 @@ function returnfalse() {
 <template>
   <Field
     :name="name"
+    :label="label"
     :type="type"
     :placeholder="placeholder"
     :rules="rules"
@@ -50,5 +51,5 @@ function returnfalse() {
     :value="value"
     :disable="disable"
   />
-  <ErrorMessage v-if="disabled" name="name" />
+  <ErrorMessage v-if="!disable" :name="name" />
 </template>

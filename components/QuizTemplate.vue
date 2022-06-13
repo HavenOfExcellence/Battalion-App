@@ -32,6 +32,7 @@ const schema = {
         class="flex items-center w-full py-4 pl-5 m-2 ml-0 space-x-2 border-2 cursor-pointer bg-gray-200 border-black/10 rounded-xl"
       >
         <FormField
+          :disable="true"
           value="1"
           name="answer"
           type="radio"
@@ -43,6 +44,7 @@ const schema = {
         class="flex items-center w-full py-4 pl-5 m-2 ml-0 space-x-2 border-2 cursor-pointer bg-gray-200 border-black/10 rounded-xl"
       >
         <FormField
+          :disable="true"
           value="2"
           name="answer"
           type="radio"
