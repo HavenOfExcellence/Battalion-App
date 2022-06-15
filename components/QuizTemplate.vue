@@ -1,10 +1,5 @@
 <script setup>
 import { Form, ErrorMessage } from "vee-validate";
-function onSubmit(values) {
-  console.log("ASDASD");
-  console.log(values);
-  navigateTo("/scenario2");
-}
 
 const schema = {
   answer(value) {
@@ -44,9 +39,19 @@ const props = defineProps({
       },
     ],
   },
+  link: {
+    type: String,
+    default: "https://www.google.com",
+  },
 });
 
-const { question, answers } = props;
+const { question, link, answers } = props;
+
+function onSubmit(values) {
+  console.log("ASDASD");
+  console.log(values);
+  navigateTo(link);
+}
 </script>
 
 <template>

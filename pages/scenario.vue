@@ -3,12 +3,11 @@
   <ScenarioPage
     :scenario="1"
     title="Stranger Messages you with a suspicious link:"
-    nextlink="/scenario2"
   >
     <img src="~/assets/Scam1.jpg" />
     <h2>
       Social Media Impersonation Scams Scammers would usually ask the victims
-      for their personal details such as their mobile number, Internet banking
+      for their cpersonal details such as their mobile number, Internet banking
       account details and One-Time Password (OTP) on the pretext of helping them
       to sign up for fake contests or promotions allegedly organised by Lazada,
       Shopee and Qoo10. Victims would later discover that fraudulent
@@ -19,7 +18,7 @@
       anyone.
     </h2>
   </ScenarioPage>
-  <QuizTemplate question="What are u doing bro?" />
+  <QuizTemplate link="/scenario2" question="What are u doing bro?" />
 </template>
 
 <script setup></script>

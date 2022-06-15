@@ -35,13 +35,6 @@
       <div class="my-10">
         <slot></slot>
       </div>
-      <a :href="nextlink">
-        <button
-          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-        >
-          Next
-        </button>
-      </a>
     </div>
   </div>
 </template>
@@ -57,11 +50,7 @@ const props = defineProps({
     type: Number,
     required: true,
   },
-  nextlink: {
-    type: String,
-    required: true,
-  },
 });
 
-const { nextlink, title, scenario } = props;
+const { title, scenario } = props;
 </script>
