@@ -19,7 +19,7 @@
       anyone.
     </h2>
   </ScenarioPage>
-  <QuizTemplate />
+  <QuizTemplate question="What are u doing bro?" />
 </template>
 
 <script setup></script>
