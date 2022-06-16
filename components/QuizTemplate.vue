@@ -1,6 +1,8 @@
 <script setup>
-import { Form, ErrorMessage } from "vee-validate";
-
+import { Form, ErrorMessage, configure } from "vee-validate";
+configure({
+  validateOnChange: false,
+});
 const schema = {
   answer(value) {
     if (value === undefined) {
@@ -48,8 +50,6 @@ const props = defineProps({
 const { question, link, answers } = props;
 
 function onSubmit(values) {
-  console.log("ASDASD");
-  console.log(values);
   navigateTo(link);
 }
 </script>

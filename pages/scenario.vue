@@ -7,7 +7,7 @@
     <img src="~/assets/Scam1.jpg" />
     <h2>
       Social Media Impersonation Scams Scammers would usually ask the victims
-      for their cpersonal details such as their mobile number, Internet banking
+      for their personal details such as their mobile number, Internet banking
       account details and One-Time Password (OTP) on the pretext of helping them
       to sign up for fake contests or promotions allegedly organised by Lazada,
       Shopee and Qoo10. Victims would later discover that fraudulent
@@ -18,7 +18,20 @@
       anyone.
     </h2>
   </ScenarioPage>
-  <QuizTemplate link="/scenario2" question="What are u doing bro?" />
+  <QuizTemplate
+    link="/scenario2"
+    question="What is an indicator that a message
+  is malicous"
+    :answers="[
+      { text: `Message is coming from an unknown number`, value: `2` },
+      {
+        text: `Message asks for personal details such as name, banking details, OTPs `,
+        value: `2`,
+      },
+      { text: `Message is unexpected`, value: `2` },
+      { text: `All of the above`, value: `1` },
+    ]"
+  />
 </template>
 
 <script setup></script>
