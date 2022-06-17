@@ -72,6 +72,7 @@
     </ScenarioPage>
     <QuizTemplate
       link="/scenario2"
+      question="What is a way you can protect yourself in a zoom call?"
       :answers="[
         { text: `Message is coming from an unknown number`, value: `2` },
         {
