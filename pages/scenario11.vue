@@ -24,20 +24,24 @@
     </ScenarioPage>
 
     <QuizTemplate
-      link="/scenario11"
-      question="What are some steps you can take to be safe when connected to public wifi"
+      link="/scenario12"
+      question="What are some ways you can backup data?"
       :answers="[
         {
-          text: `Check that every website you connect to has https(lock icon) `,
-          value: `1`,
+          text: `Use a service like google photos to autmatically sync your photos to gdrive`,
+          value: `4`,
         },
         {
-          text: `Set your phone to autoconnect to open wifi networks`,
+          text: `Store PC backups twice or more a year using a cheap hard drive.`,
+          value: `3`,
+        },
+        {
+          text: `Signup for automatic backup services such as Idrive`,
           value: `2`,
         },
         {
-          text: `Check banking info quickly so people cannot steal your info`,
-          value: `3`,
+          text: `All of the above`,
+          value: `1`,
         },
       ]"
     />
