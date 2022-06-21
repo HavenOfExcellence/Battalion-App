@@ -32,7 +32,7 @@
           </div>
         </dl>
       </div> -->
-      <div class="my-10">
+      <div>
         <slot></slot>
       </div>
     </div>

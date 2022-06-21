@@ -1,12 +1,8 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
   <div>
-    <ScenarioPage
-      :scenario="8"
-      title="How to prevent malicous software on personoal devices"
-    >
-      <img src="~/assets/Scam8.png" />
-      <h2>
+    <ScenarioPage :scenario="9" title="Fake Jobs scam">
+      <h2 class="">
         You receive an unsolicited job offer via messaging apps, social media,
         etc. Very often, potential ‘employers’ will offer high pay with very
         little time commitment or effort. There are a number of different job
@@ -23,22 +19,18 @@
         a registration fee. You may also be asked to pay additional fees such as
         insurance or membership.
       </h2>
+      <img src="~/assets/Scam9.jpg" />
     </ScenarioPage>
 
     <QuizTemplate
-      link="/scenario9"
-      question="Which of the following could potentially be dangerous"
+      link="/scenario10"
+      question="Is the above job offer likely to be legitimate?"
       :answers="[
-        { text: `Downloading suspicious software on the internet`, value: `2` },
         {
-          text: `Having your anti-virus/windows defender turned off`,
+          text: `Legitimate`,
           value: `2`,
         },
-        {
-          text: `Not having your devices updated to the latest security patch`,
-          value: `2`,
-        },
-        { text: `All of the above`, value: `1` },
+        { text: `Illegitimate`, value: `1` },
       ]"
     />
   </div>

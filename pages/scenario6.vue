@@ -71,16 +71,16 @@
       </h2>
     </ScenarioPage>
     <QuizTemplate
-      link="/scenario2"
-      question="What is a way you can protect yourself in a zoom call?"
+      link="/scenario7"
+      question="What is NOT a way you can protect yourself in a zoom call?"
       :answers="[
-        { text: `Message is coming from an unknown number`, value: `2` },
+        { text: `Password protect your meetings`, value: `2` },
         {
-          text: `Message asks for personal details such as name, banking details, OTPs `,
-          value: `2`,
+          text: `Authenticate Users`,
+          value: `3`,
         },
-        { text: `Message is unexpected`, value: `2` },
-        { text: `All of the above`, value: `1` },
+        { text: `Leave your meeting on public mode`, value: `1` },
+        { text: `Check for updates`, value: `4` },
       ]"
     />
   </div>
