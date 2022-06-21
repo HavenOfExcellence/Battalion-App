@@ -1,29 +1,35 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
   <div>
-    <ScenarioPage :scenario="13" title="Importance of Online Privacy">
-      <img src="~/assets/Scam13.jpg" />
+    <ScenarioPage :scenario="14" title="Cypto Investment Scams">
+      <img src="~/assets/Scam14.png" />
+      <h2>
+        Investment scams involve promises of big payouts, quick money or
+        guaranteed returns. Always be suspicious of any investment opportunities
+        that promise a high return with little or no risk – if it seems too good
+        to be true, it probably is – and is highly likely to be a scam.
+      </h2>
     </ScenarioPage>
 
     <QuizTemplate
-      link="/scenario14"
-      question="which is NOT a way you can maintain your privacy online"
+      link="/scenario15"
+      question="What are some signs that a crypto scam is taking place"
       :answers="[
         {
-          text: `Use a VPN as another layer to your internet use`,
+          text: `Unsustainably high returns`,
           value: `4`,
         },
         {
-          text: `Install a browser plugin like Collusion to check how many sommpanies are tracking you every day.`,
+          text: `Typographical errors and obvious misspellings in emails, on social media posts, or in any marketing/promotional materials `,
+          value: `3`,
+        },
+        {
+          text: `Promises of free money, or the 'next big project' `,
           value: `2`,
         },
         {
-          text: `Close websites immediately after you are done to prevent them from tracking you`,
+          text: `All of the above`,
           value: `1`,
-        },
-        {
-          text: `Turn off cookies ond stick too the regular font stack`,
-          value: `3`,
         },
       ]"
     />
