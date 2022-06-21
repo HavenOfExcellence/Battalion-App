@@ -3,7 +3,7 @@
   <div>
     <ScenarioPage
       :scenario="8"
-      title="How to prevent malicous software on personoal devices"
+      title="How to prevent malicous software on personal devices"
     >
       <img src="~/assets/Scam8.png" />
     </ScenarioPage>
@@ -14,11 +14,11 @@
         { text: `Downloading suspicious software on the internet`, value: `2` },
         {
           text: `Having your anti-virus/windows defender turned off`,
-          value: `2`,
+          value: `3`,
         },
         {
           text: `Not having your devices updated to the latest security patch`,
-          value: `2`,
+          value: `4`,
         },
         { text: `All of the above`, value: `1` },
       ]"

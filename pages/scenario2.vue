@@ -9,7 +9,7 @@
       <img src="~/assets/Scam2.png" />
       <h2>
         Don’t drop your “phishing antenna” just because you see a familiar
-        persoon as the sender of an email. Keep looking for anything else
+        person as the sender of an email. Keep looking for anything else
         suspicious that would indicate the message isn’t from the person or
         company it appears to be. Common indicators of a fake: If the email
         doesn’t make sense to you (i.e., it’s strange that your friend would
@@ -24,15 +24,21 @@
     </ScenarioPage>
     <QuizTemplate
       link="/scenario3"
-      question="Which of the following is true"
+      question="Which of the following is false"
       :answers="[
-        { text: `Phishing messages cannot come from friends`, value: `2` },
+        { text: `Phishing messages cannot come from friends`, value: `1` },
         {
-          text: `Message asks for personal details such as name, banking details, OTPs `,
+          text: `Messages promising of free gifts are likely to be scams`,
           value: `2`,
         },
-        { text: `Message is unexpected`, value: `2` },
-        { text: `All of the above`, value: `1` },
+        {
+          text: `You should check with your friend if they send you a suspicous message`,
+          value: `3`,
+        },
+        {
+          text: `Do not click links if it appears that the link is suspicious`,
+          value: `4`,
+        },
       ]"
     />
   </div>
