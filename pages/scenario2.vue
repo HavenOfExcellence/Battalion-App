@@ -24,10 +24,9 @@
     </ScenarioPage>
     <QuizTemplate
       link="/scenario3"
-      question="What is an indicator that a message
-      is malicous"
+      question="Which of the following is true"
       :answers="[
-        { text: `Message is coming from an unknown number`, value: `2` },
+        { text: `Phishing messages cannot come from friends`, value: `2` },
         {
           text: `Message asks for personal details such as name, banking details, OTPs `,
           value: `2`,
