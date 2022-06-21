@@ -13,7 +13,7 @@
 
     <QuizTemplate
       link="/scenario15"
-      question="What are some signs that a crypto scam is taking place"
+      question="What are some signs that a crypto scam is taking place?"
       :answers="[
         {
           text: `Unsustainably high returns`,
