@@ -22,6 +22,7 @@
     <QuizTemplate
       link="/scenario2"
       question="What is an indicator that a message
+      
     is malicous"
       :answers="[
         { text: `Message is coming from an unknown number`, value: `2` },
