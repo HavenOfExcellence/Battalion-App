@@ -14,7 +14,7 @@
           value: `4`,
         },
         {
-          text: `Install a browser plugin like Collusion to check how many sommpanies are tracking you every day.`,
+          text: `Install a browser plugin like Collusion to check how many companies are tracking you every day.`,
           value: `2`,
         },
         {
@@ -22,7 +22,7 @@
           value: `1`,
         },
         {
-          text: `Turn off cookies ond stick too the regular font stack`,
+          text: `Turn off cookies ond stick to the regular font stack`,
           value: `3`,
         },
       ]"

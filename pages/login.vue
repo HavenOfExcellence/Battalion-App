@@ -74,7 +74,7 @@ function onpassword() {
                   <ModalComponent
                     v-if="isusername"
                     title="Tips for Selecting a Username"
-                    body="It is advised not to put any personal identifiers, such as your name, instagram handle ect. This allows websites to be able to target you."
+                    body="It is advised not to put any personal identifiers, such as your name, instagram handle ect. This would better prevent malicious actors from targeting you"
                   />
                 </div>
 
@@ -118,9 +118,9 @@ function onpassword() {
                     title="Tips for Selecting a Password"
                     body="Password Recommendations: 
               1. Use longer passwords
-              2. Do not reuse passwords
-              3. Do not use personal information
-              4. Implement MFA
+              2. Avoid Reusing passwords from other sites
+              3. Do not include personal indentifiers in your password
+              4. Implement Multi-Factor Authentication
               5. Change passwords in the event of a compromise"
                   />
                 </div>
@@ -133,7 +133,7 @@ function onpassword() {
                 type="submit"
                 class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
-                Signup and Enter Activity
+                Signup and Begin Activity
               </button>
             </div>
           </div>
