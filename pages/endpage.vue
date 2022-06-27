@@ -78,5 +78,11 @@ const features = [
       "CISA leads the Nation’s strategic and unified work to strengthen the security, resilience, and workforce of the cyber ecosystem to protect critical services and American way of life.",
     link: "https://www.cisa.gov/",
   },
+  {
+    name: "Feedback Form",
+    description:
+      "As this is the first time doing such an activity, do let the NSFC Team know if you have any feedback at the form above!",
+    link: "https://forms.gle/mfJDtQFYXosdad6K6",
+  },
 ];
 </script>
