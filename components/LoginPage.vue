@@ -49,7 +49,7 @@ function onpassword() {
     >
       <Form class="bg-white" @submit="onSubmit" :validation-schema="schema">
         <h1 class="text-gray-800 font-bold text-2xl mb-8">
-          Battalion Digital Defense Exercise
+          3TPT Digital Defense Exercise
         </h1>
         <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
           <div v-on:click="onname()">

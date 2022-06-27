@@ -54,7 +54,7 @@ function onpassword() {
           <div class="shadow overflow-hidden sm:rounded-md">
             <div class="px-4 py-5 bg-white sm:p-6">
               <h1 class="text-gray-800 font-bold text-2xl mb-8">
-                Battalion Digital Defense Exercise
+                3TPT Digital Defense Activity
               </h1>
               <div class="grid grid-cols-6 gap-6">
                 <div class="col-span-6">
